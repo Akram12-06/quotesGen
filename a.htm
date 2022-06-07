@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:ital,wght@1,600&display=swap"
+    rel="stylesheet">
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Lobster', cursive;
+        /* font-family: 'Merriweather Sans', sans-serif; */
+        font-size: 40px;
+    }
+
+    .container {
+        /* background-image: url('back.avif'); */
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        /* padding: 1.5em; */
+        
+        background-image: url('back.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .contflex {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        top: 35%;
+        padding: 1em;
+        margin: 0 1em;
+    }
+
+    #para h2 {
+        margin: 10px;
+        /* border: 2px solid; */
+        margin: 3px auto;
+        padding: 15px;
+        width: 80%;
+        color: balck;
+        font-size: 40px;
+        color: rgb(169, 1, 1);
+
+    }
+
+    #btn {
+        /* border: 2px solid blue; */
+        width: 100px;
+        text-align: center;
+        margin: 1em auto;
+        padding: .75em;
+        border-radius: 15px;
+        font-size: 20px;
+        font-family: 'Lora', serif;
+        cursor: pointer;
+        color: rgb(169, 1, 1);
+        font-family: 'Merriweather Sans', sans-serif;
+        background-color: skyblue;
+        opacity: 0.4;
+    }
+    #btn:hover{
+        background-color: white;
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="contflex">
+            <div id="para">
+                <h2>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi facere eligendi error, "</h2>
+            </div>
+            <button id="btn" onclick="genrand()">Quotes</button>
+        </div>
+
+    </div>
+</body>
+
+<script src="j.js">
+
+</script>
+
+</html>
