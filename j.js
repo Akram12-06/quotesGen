@@ -7,7 +7,7 @@ function genrand(){
     console.log(x);
     para.innerHTML=quotes[x];
     btn.style.color='red';
-    para.style.color='rgb(169, 1, 1)';
+    para.style.color='rgb(255 235 108)';
 
 
 }
